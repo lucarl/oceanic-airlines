@@ -1,0 +1,182 @@
+.booking-container {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #ffffff;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #7c7c7c;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+.hamburger {
+    margin-left: auto; 
+margin-left: 0;
+width:50px;
+}
+
+.booking-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 70%;
+    height: 40%;
+    background-color: #d9d9d9;
+}
+
+.booking-input-container {
+    width: 100%;
+    height: 100%;
+    display:flex;   
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-overall {
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.booking-input {
+    width: 100%;
+    height: 100%;
+}
+
+.booking-button-container {
+    float: right;
+    margin-right: 50px;
+}
+
+.booking-text {
+    cursor: pointer;
+}
+
+.add-package {
+    width: 200px;
+}
+
+.header-bar {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.form-bar {
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 65%;
+    height: 150px;
+}
+
+.header-bar {
+    background-color: #cccccc;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+    height: 70px;
+}
+
+.form-bar {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    font-size: 25px;
+    background-color: #cccccc;
+}
+
+.form-bar > input {
+    height: 30px;
+}
+
+
+.search-button > button {
+    width: 80%;
+    height: 50px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+.add-package > button {
+    height: 50px;
+    width: 140px;
+    background-color: #74A3FF;
+    color: white;
+    font-size: 200%;
+    border: none;
+    margin-left: auto;
+}
+

@@ -1,0 +1,6 @@
+.sidebar-component {
+    background-color: blue;
+    width: 30%;
+    height: 100vh;
+    position: absolute;
+}
